@@ -1,0 +1,46 @@
+body{
+    padding: 100px 340px;
+   text-align: center;
+}
+
+button, .btn{
+    border:  solid;
+    border-radius: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+}
+
+button:hover, .btn:hover{
+    border-color: purple;
+    color: purple; 
+}
+
+button:active, .btn:active{
+    background-color: purple;
+    color: white;
+}
+
+button:focus{
+    outline: none;
+}
+
+.hide {
+    display: none; 
+}
+
+#username{
+    width: 340px;
+    height: 25px;
+    font-size: 20px;
+}
+#questions{
+    font-size: 20px;
+    font-weight: bold;
+}
+#time, #grade{
+    font-size: 17px;
+}
